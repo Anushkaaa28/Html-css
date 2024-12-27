@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        div.box{
+            height: 50px;
+            width: 50px;
+            /* background-image: linear-gradient(to bottom right, green, yellow); */
+            background-color: orangered;
+            padding: 30px;
+            animation-name: BoxA;
+            animation-duration: 5s;
+            font-size: xx-large;
+            position: relative;
+        }
+
+        @keyframes BoxA{
+            0%{background-color: rgb(3, 94, 136); left: 0px; top: 0px;}
+            25%{background-color: rgb(91, 2, 207); left: 500px; top: 0px;}
+            50%{background-color: rgb(0, 255, 255); left: 500px; top: 300px;}
+            75%{background-color: blue; left: 0px; top: 300px;}
+            100%{background-color: rgb(3, 94, 136);left: 0px; top: 0px;}
+        }
+
+
+        .divEX {
+            height: 50px;
+            width: 50px;
+            background-color: orangered;
+            padding: 30px;
+        }
+
+
+        div.div1 {
+            rotate: 45deg;
+        }
+
+        div.div2 {
+            translate: 180px;
+        }
+
+        div.div3 {
+            transform: scaleX(3);
+        }
+
+        div.div4 {
+            transform: skewX(50deg);
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="box">Box</div>
+
+    <div style="margin-top: 300px;">
+        <div class="div1 divEX">
+            <p>Rotate</p>
+        </div>
+        <div class="div2 divEX">
+            <p>Translate</p>
+        </div><br>
+        <div class="div3 divEX">
+            <p>Scale</p>
+        </div><br><br>
+        <div class="div4 divEX">
+            <p>Skew</p>
+        </div><br>
+    </div>
+</body>
+
+</html>
