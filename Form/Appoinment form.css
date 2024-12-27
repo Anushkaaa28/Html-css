@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: orange;
+    /* background-image: linear-gradient(to right, orange 70%, rgb(115, 185, 212)30% );
+    background-repeat: no-repeat; */
+}
+
+.formDiv{
+    width: 40%;
+    height: 480px;
+    background-color: white;
+    margin: 0px 400px;
+}
+
+.mainDiv{
+    height: 40px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.labeldiv{
+    margin: 5px 15px;
+}
+
+sup{
+    color: red;
+}
+
+.inputdiv{
+    margin: 10px 15px;
+    width: 450px;
+    height: 30px;
+}
+
+.Rme{
+    height: 20px;
+    margin: 0px 20px;
+    
+}
+
+button{
+    width: 450px;
+    height: 40px;
+    margin: 5px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+
+h4{
+    text-align: center;
+    position: relative;
+}
+
+h4:before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 1px;
+    background: #cacaca;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+h4:after {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 1px;
+    background: #cacaca;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+  p{
+    padding: 10px;
+    margin: 0px;
+  }
+
+ 
+
+  .loginwith{
+    padding: 2px;
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(190, 190, 190);
+    color: ;
+
+  }

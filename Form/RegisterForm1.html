@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./Form1.css">
+</head>
+<body>
+    <div class="backdiv">
+    <div class="formdiv">
+        <form>
+            <h2 class="heading">Registration form</h2>
+            <hr>
+
+        <div class="mainDiv">
+        <div class="divLable">
+            <label>Name:</label>
+        </div>
+        <div>
+            <input class="divInput" type="text" placeholder="Enter your name" autofocus>
+        </div></div>
+
+        <div class="mainDiv">
+        <div class="divLable">
+            <label>Email:<sup>*</sup></label>
+        </div>
+        <div>
+            <input class="divInput" type="text" placeholder="Email address" required>
+        </div></div>
+
+        <div class="mainDiv">
+        <div class="divLable">
+            <label>Password:<sup>*</sup></label>
+        </div>
+        <div>
+            <input class="divInput" type="text" placeholder="Enter Password" required>
+        </div></div>
+
+        <div class="mainDiv">
+        <div class="divLable">
+            <label>Contact No.:</label>
+        </div>
+        <div>
+            <input class="divInput" type="text" placeholder="Phone number">
+        </div></div>
+
+        <div class="mainDiv">
+            <div class="divLable">
+                <label>Department:</label>
+            </div>
+            <div>
+                <input class="checkbox" type="checkbox" id="M" value="Commercial">
+                <label  for="M">Commercial</label>
+                <input class="checkbox" type="checkbox" id="F" value="Technical">
+                <label for="F">Technical</label>
+                <input class="checkbox" type="checkbox" id="O" value="Financial">
+                <label for="O">Financial</label>
+            </div></div>
+           
+            <div class="mainDiv">
+                <div class="divLable">
+                    <label  for="Male">Gender:</label>
+                </div>
+                <div class="divInput radiobutton">
+                    <label>Male</label>
+                    <input type="radio" value="Male" name="gender">
+                    <label>Female</label>
+                    <input type="radio" value="Female" name="gender">
+                    <label>Other</label>
+                    <input type="radio" value="other" name="gender">
+
+                </div>
+                
+            </div>
+
+<br>
+
+    <div class="mainDiv">
+    <div class="divLable"><label>Upload Image:</label> </div>
+    <div>
+        <input class="divInput" type="file" placeholder="Upload an Image">
+    </div></div>
+
+
+    <div class="mainDiv">
+            <div class="divLable"><lable>Subjects:</lable></div>
+            
+             <select class="divInput">
+                <option><label>DSA</label> </option>
+                <option><label>HTML</label></option>
+                <option><label>CSS</label></option>
+                <option><label>JS</label></output>    
+            </select>
+            </div>
+
+    <div class="mainDiv">
+    <div class="divLable"><label>Browsers:</label></div>
+    <div class="divInput"  style="width: 500px;">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist></div>
+
+</div>
+
+        <div class="mainDiv">
+        <div class="divLable">
+            <input class="btn" type="Submit" value="Register">
+        </div></div>
+      
+
+       <br>
+       <br>
+       <br>
+
+       
+        <DIV>
+        <p>If you have already registered  <a href="./LoginForm1.html">Login </a></p>
+    </DIV>
+        </form>
+
+    </div>
+</div>
+    
+   
+</body>
+</html>
